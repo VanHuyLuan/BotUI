@@ -1,0 +1,32 @@
+
+.user-message {
+    -fx-font-size: 13px;
+    -fx-text-fill: black;
+}
+
+#cam{
+    -fx-background-image: url("image/cam.png");
+    -fx-border-color: none;
+}
+
+#cam:hover{
+    -fx-opacity: 1;
+}
+
+#phone{
+    -fx-background-image: url("image/phone.png");
+    -fx-border-color: none;
+}
+
+#phone:hover{
+    -fx-opacity: 1;
+}
+
+#send{
+    -fx-background-image: url("image/send-message.png");
+    -fx-border-radius: 15px;
+}
+
+#image{
+    -fx-background-image: url("image/image-.png");
+}
