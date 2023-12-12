@@ -1,0 +1,67 @@
+.root {
+    --comment-footer-background: #f0f0f0;
+}
+
+
+.bot-message {
+    -fx-background-color: rgb(201, 201, 201);
+    -fx-text-fill: black;
+    -fx-padding: 5px;
+    -fx-border-radius: 10px 10px;
+    -fx-background-radius: 10px; /* Bo tròn cả 4 góc */
+    -fx-max-width: 250px; /* Set a maximum width for the bot message */
+}
+
+.bot-message .image-view {
+    -fx-clip: circle;
+    -fx-border-radius: 10px 10px;
+}
+
+.user-message {
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+    -fx-padding: 5px;
+    -fx-background-radius: 10px; /* Bo tròn cả 4 góc */
+    -fx-border-radius: 10px 10px;
+    -fx-max-width: 250px; /* Set a maximum width for the user message */
+}
+
+.button-without-background {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0, 0, 1, 2;
+}
+
+.button-without-background:hover {
+    -fx-background-color: transparent;
+}
+
+#cam{
+    -fx-background-image: url("image/cam.png");
+    -fx-border-color: none;
+}
+
+#cam:hover{
+    -fx-opacity: 1;
+}
+
+#phone{
+    -fx-background-image: url("image/phone.png");
+    -fx-border-color: none;
+}
+
+#phone:hover{
+    -fx-opacity: 1;
+}
+
+#send{
+    -fx-background-image: url("image/send-message.png");
+    -fx-border-radius: 15px;
+}
+
+#image{
+    -fx-background-image: url("image/image-.png");
+}
+
+.imagebot1 {
+    -fx-background-radius: 50%;
+}
